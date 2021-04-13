@@ -26,7 +26,7 @@
       <pubDate>Tue, 13 Apr 2021 13:53:20 +0800</pubDate>
       
       <guid>http://Atrule.github.io/reademe/</guid>
-      <description>新建文章并提交命令 #新建文章 根目录下执行 hugo new post/article.md #根目录下执行命令生成最终页面 hugo --theme=bootstrap-bp-hugo-theme --baseUrl=&amp;quot;http://Atrule.github.io/&amp;quot; #cd public/ 执行git push # 初始化命令 #根目录下执行命令生成最终页面 hugo --theme=bootstrap-bp-hugo-theme --baseUrl=&amp;quot;http://Atrule.github.io/&amp;quot; #初始化git仓库 git init # 提交本地仓库 git commit -am &amp;quot;commit message&amp;quot; #与远程仓库建立联系 git remote add origin https://github.com/Atrule/Atrule.github.io.git #强制覆盖远程仓库代码 git push -f --set-upstream origin master:master </description>
+      <description>新建文章并提交命令 #新建文章 根目录下执行 hugo new post/article.md #根目录下执行命令生成最终页面 hugo --theme=bootstrap-bp-hugo-theme --baseUrl=&amp;quot;http://Atrule.github.io/&amp;quot; #cd public/ 执行git push git push -f --set-upstream origin master:master # 初始化命令 #根目录下执行命令生成最终页面 hugo --theme=bootstrap-bp-hugo-theme --baseUrl=&amp;quot;http://Atrule.github.io/&amp;quot; #初始化git仓库 git init # 提交本地仓库 git commit -am &amp;quot;commit message&amp;quot; #与远程仓库建立联系 git remote add origin https://github.com/Atrule/Atrule.github.io.git #强制覆盖远程仓库代码 git push -f --set-upstream origin master:master </description>
     </item>
     
   </channel>
