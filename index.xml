@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>It is your life ! ! !</title>
     <link>http://Atrule.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on It is your life ! ! !</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Apr 2021 13:53:20 +0800</lastBuildDate>
@@ -12,30 +12,22 @@
     
     
     <item>
-      <title>品牌公关策划</title>
-      <link>http://Atrule.github.io/post/%E5%93%81%E7%89%8C%E5%85%AC%E5%85%B3%E7%AD%96%E5%88%92/</link>
-      <pubDate>Tue, 13 Apr 2021 15:00:37 +0800</pubDate>
-      
-      <guid>http://Atrule.github.io/post/%E5%93%81%E7%89%8C%E5%85%AC%E5%85%B3%E7%AD%96%E5%88%92/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>http://Atrule.github.io/post/first/</link>
-      <pubDate>Tue, 13 Apr 2021 13:54:36 +0800</pubDate>
-      
-      <guid>http://Atrule.github.io/post/first/</guid>
-      <description>hello world 1.a 2.bb 3.ccc</description>
-    </item>
-    
-    <item>
       <title>READEME</title>
       <link>http://Atrule.github.io/reademe/</link>
       <pubDate>Tue, 13 Apr 2021 13:53:20 +0800</pubDate>
       
       <guid>http://Atrule.github.io/reademe/</guid>
       <description>新建文章并提交命令 #新建文章 根目录下执行 hugo new post/article.md #本地查看 hugo server --theme=hugo-icarus-theme --buildDrafts #根目录下执行命令生成最终页面 hugo --theme=bootstrap-bp-hugo-theme --baseUrl=&amp;quot;http://Atrule.github.io/&amp;quot; #cd public/ 执行git push git push -f --set-upstream origin master:master # 初始化命令 #根目录下执行命令生成最终页面 hugo --theme=bootstrap-bp-hugo-theme --baseUrl=&amp;quot;http://Atrule.github.io/&amp;quot; #初始化git仓库 git init # 提交本地仓库 git commit -am &amp;quot;commit message&amp;quot; #与远程仓库建立联系 git remote add origin https://github.com/Atrule/Atrule.github.io.git #强制覆盖远程仓库代码 git push -f --set-upstream origin master:master </description>
+    </item>
+    
+    <item>
+      <title>简述express和koa2和Egg的区别</title>
+      <link>http://Atrule.github.io/post/%E7%AE%80%E8%BF%B0express%E5%92%8Ckoa2%E5%92%8Cegg%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Mon, 13 Apr 2020 18:39:37 +0800</pubDate>
+      
+      <guid>http://Atrule.github.io/post/%E7%AE%80%E8%BF%B0express%E5%92%8Ckoa2%E5%92%8Cegg%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <description>express和Koa2 是同一个作者编写，express体积较大，Koa2属于轻量级按需引用中间件*  图片汇总如下    框架 类型 开发语言 中间件机制 错误处理 上下文封装 优点 缺点 备注     Express 集成式，开箱即用 ES5 connect线性模式 逐次调用Error中间件 无封装，直接使用req.res 1、使用简单，开箱即用 2、生态稳定，第三方库较多 1，体积大，内置功能多 2、时间处理和中间件机制都基于回调开发不方便 无   Koa2 轻量级、功能按需引入 ES7（ES2016） 洋葱模式 顶部统一处理 ctx封装，提供封装API 1、支持ES6新特性，尤其是Promise和easync能解决地域回调的问题 2、按需引用，自有选择中间键 需要具备ES6 知识 无   Egg 集成式，开箱即用 ES7（ES2016） 洋葱模式 顶部统一处理 ctx封装，提供封装API 1、强调约定规则，方便团队协作，提高可维护性 2、内置常用插件，满足安全，日志，多进程，配置等需求 3、引入了Controller，Service等概念，配合Typescript可以实现类JAVA强语言类型开发体验，提高项目稳定性 1、需要学习 规则 2、内置模块多，更适合企业级项目 3、对Koa进行了深度封装，需要学习不同的处理方式 4、需要团队成员理解强类型语言的设计思想，最好有强类型语言的开发经验     重写根本原因：  根本区别也是作者重写espress诞生Koa2的原因是，两者的中间件模型分别为线性模型和洋葱模型（事件入至出共两次触发），即错误回收是在尾部和Catch即时回收的区别
+ 语义化区别：  Koa2使用ES7（2016）Promise， async await，箭头函数，等更具有语义化的API</description>
     </item>
     
   </channel>
